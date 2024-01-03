@@ -1,0 +1,27 @@
+body{
+    padding: 215px;
+    margin: 0;
+}
+.btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn {
+background-color: black;
+color: white;
+width: 300px;
+border-radius: 40px;
+font-size: xx-large;
+
+}
+form{
+    text-align: center;
+    border: 1px solid black;
+    width: 300px;
+    padding: 150px;
+    padding-left: 80px;
+}
+.sss{
+    padding: 25px;
+}

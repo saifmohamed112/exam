@@ -1,0 +1,116 @@
+    *{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.jo{
+    border: 1px solid black;
+    border-radius: 40px;
+}
+nav{
+    text-decoration: none;
+    background-color: gray;
+    color: #fff;
+    padding: 20px;
+    opacity: 100 b;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+nav ul li{
+    display: inline-block;
+}
+.pp{
+    justify-content: center;
+    padding: 2px;
+    display: flex;
+    margin: -7px;
+    width: 50px;
+    height: 50px;
+}
+
+nav ul li button{
+    background-color: transparent;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+
+nav ul li button:hover{
+    background-color: #fff;
+    color: black;
+    border-radius: 20px;
+}
+img{
+    background-color: transparent;
+    margin: 100px;
+    width: 400px;
+    height: 250px;
+    border: 2px solid black;
+    border-radius: 40px;
+    margin-top: 200px;
+}
+.btn{
+    margin-bottom: 0px;
+    background-color: green;
+    color: #ffffff;
+    display: flex;
+    width: 300px;
+    padding: 9px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-radius: 40px;
+    margin-left: 70px;
+    margin-top: 46px;
+}
+
+.btn:hover{
+    background-color: black;
+    color:red;
+
+}
+.he{
+    height: 280px;
+}
+form{
+    width: 800px;
+    height: 500px 400;
+    
+    
+}
+.slider {
+    display: flex;
+}
+.hopp{
+    display: flex;
+    justify-content: right;
+    margin-left: 630px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: right;
+}
+     
+
+
+.form-container{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+}
+
+.cont{
+    height: 500px;
+    margin-top: -101px;
+}

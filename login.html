@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="loginsty.css">
+    <script src="alljv.js"></script>
+</head>
+<body>
+        <form>
+      <h2>forgetpassword</h2>
+      <label for="username"><b>username</b></label>
+      <input type="text" placeholder="Enter username" id="inpUser" required>
+  
+      <label for="NewPassword"><b>NewPassword</b></label>
+      <input type="password" placeholder="Enter New Password" id="inpPass" required>
+      <p>don'have account ?<a href="#">signup</a></p>
+      <button onclick="forget()" type="button">Sign Up</button> 
+
+   
+    </form>
+
+
+
+
+
+
+
+    <form>
+        <h2>SignUp</h2>
+        <label>Name</label>
+        <input id="userInp" type="text"> <br>
+        <label>Email</label>
+        <input id="emailInp" type="email"><br>
+        <label for="rd">Gender</label>
+        <input type="radio" value="Male" name="rd" id="r1">
+        <label for="r1">Male</label>
+        <input type="radio" value="Female" name="rd" id="r2">
+        <label for="r2">Female</label><br>
+        <label>Pass</label>
+        <input id="inpPass" type="password"><br>
+        <label>Cpass</label>
+        <input id="inpCpass" type="password"><br>
+        <label>phonenum</label>
+        <input id="phnum" type="text"><br>
+        
+    <br><br>
+        <button onclick="SignUp()" type="button">Sign Up</button> 
+    </form>  
+
+
+
+
+            <form>
+        <h2>Login</h2>
+        <label><b>username</b></label>
+        <input type="text" placeholder="Enter username" id="inpUser" required>
+    
+        <label><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" id="inpPass" required>
+        <p>don'have account ?<a href="#">signup</a></p>
+    
+        <button onclick="login()" type="button">login</button>
+      </form>
+</html>
